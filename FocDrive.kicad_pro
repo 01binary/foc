@@ -661,7 +661,7 @@
         "uuid": "1c9d464e-0f7e-51c6-b758-6bb31c3b5d65"
       }
     ],
-    "used_designators": "UC1-2,M_B1,VDS1,M_A1,UB1-2,DBG1,RESET1,PWR_LED1,R1,R6-37,H1-4,CF3,PWR1,M_C1,X1,IDRIVE1,EX\\-ENC1,USB1,L1,CB1-3,CAN1,SW3,U1-2,U5-23,C1-40,D1-3,#PWR1-75",
+    "used_designators": "J1,UC1-2,M_B1,VDS1,M_A1,UB1-2,DBG1,RESET1,PWR_LED1,R1,R6-38,H1-5,CF3,PWR1,M_C1,X1,IDRIVE1,EX\\-ENC1,USB1,L1,CB1-3,CAN1,SW3,U1-2,U5-23,C1-40,D1-3,#PWR1-80",
     "variants": []
   },
   "sheets": [

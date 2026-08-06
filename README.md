@@ -28,7 +28,21 @@ This board uses [STM32G474RBT3](https://www.digikey.com/en/products/detail/stmic
 
 ## Motor Driver
 
-The [DRV8320HRTVT](https://www.digikey.com/en/products/detail/texas-instruments/drv8320hrtvt/7426985) Triple Half-Bridge Gate Driver is used to drive a single 3-phase brushless DC motor..
+The [DRV8320HRTVT](https://www.digikey.com/en/products/detail/texas-instruments/drv8320hrtvt/7426985) Triple Half-Bridge Gate Driver with Hardare interface is used to drive three N-channel power MOFSETs.
+
+![Gate Driver](./doc/GateDriverSchematic.png)
+
++ `1.8 V`, `3.3 V`, and `5 V` Logic Inputs
++ Adjustable Slew Rate Control
++ Up to 100% PWM Duty Cycle
++ High-Side Charge Pump
++ Low-SIde Linear Regulator
++ `4 V` to `60 V` Operating Voltage
++ `0.8 mA` to `600 mA` Output Capability
+
+## MOSFETs
+
+The [BSZ0904NSI](https://www.lcsc.com/datasheet/C51908785.pdf) `30 V`` 60 A` N-channel power MOSFETs are used to drive a single 3-phase brushless DC motor.
 
 ## Current Sense
 
@@ -48,9 +62,9 @@ The board supports dual encoders:
 + AS5047 mounted in the center of the board (before gearbox)
 + ASKIM-2 externally mounted on the drive (after gearbox)
 
-### AS5047D
+### Onboard Encoder
 
-The internal AS5047D high-resolution encoder with `SPI` interface is mounted on the board:
+The onboard AS5047D high-resolution encoder with `SPI` interface is mounted on the board:
 
 |Pin|Signal|
 |-|-|
@@ -60,7 +74,7 @@ The internal AS5047D high-resolution encoder with `SPI` interface is mounted on 
 |4|`MOSI`|
 |11|`5V`|
 
-### AKSIM-2
+### External Encoder
 
 The external absolute AKSIM-2 encoder with `SPI` interface uses a 10-pin FCI connector:
 
