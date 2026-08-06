@@ -9,7 +9,7 @@ A board that controls BLDC motors in robot joints, based on [SimpleFOC Drive Shi
 |Encoders|[AS5047D](https://www.digikey.com/en/products/detail/ams-osram-usa-inc/as5047d-atst-tssop14-lf-t-rdp/4896031) (Onboard), [ASKIM2](https://www.rls.si/eng/aksim-2-off-axis-rotary-absolute-encoder) (External)|
 |Driver|[DRV8320HRTVT](https://www.digikey.com/en/products/detail/texas-instruments/drv8320hrtvt/7426985) Triple Half-Bridge Gate Driver|
 |Communication|[MCP2562FDT-E/MF](https://www.mouser.com/en/ProductDetail/Microchip-Technology/MCP2562FDT-E-MF) CAN-FD Transceiver|
-|Power|[XT60PW-F](https://www.aliexpress.us/item/3256808202387933.html)|
+|Power|`12V` from [XT60PW-F](https://www.aliexpress.us/item/3256808202387933.html)|
 
 ## Microcontroller
 
