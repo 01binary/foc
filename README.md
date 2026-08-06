@@ -6,7 +6,7 @@ A board that controls BLDC motors in robot joints, based on [SimpleFOC Drive Shi
 |-|-|
 |Current|`20A` continuous, `30A` peak, `75A` max|
 |Voltage|`30V` max|
-|Encoders|[AS5047D](https://www.digikey.com/en/products/detail/ams-osram-usa-inc/as5047d-atst-tssop14-lf-t-rdp/4896031) (Internal), [ASKIM2](https://www.rls.si/eng/aksim-2-off-axis-rotary-absolute-encoder) (External)|
+|Encoders|[AS5047D](https://www.digikey.com/en/products/detail/ams-osram-usa-inc/as5047d-atst-tssop14-lf-t-rdp/4896031) (Onboard), [ASKIM2](https://www.rls.si/eng/aksim-2-off-axis-rotary-absolute-encoder) (External)|
 |Driver|[DRV8320HRTVT](https://www.digikey.com/en/products/detail/texas-instruments/drv8320hrtvt/7426985) Triple Half-Bridge Gate Driver|
 |Communication|[MCP2562FDT-E/MF](https://www.mouser.com/en/ProductDetail/Microchip-Technology/MCP2562FDT-E-MF) CAN-FD Transceiver|
 |Power|[XT60PW-F](https://www.aliexpress.us/item/3256808202387933.html)|
@@ -17,7 +17,7 @@ This board uses [STM32G474RBT3](https://www.digikey.com/en/products/detail/stmic
 
 |Specification|Value|
 |-|-|
-|Power|3.3V|
+|Power|`3.3V`|
 |Memory|`512 KB` Flash, `96 KB` SRAM|
 |ADC|5x 12-bit ADC, up to 16-bit|
 |DAC|7x 12-bit DAC|
@@ -32,13 +32,13 @@ The [DRV8320HRTVT](https://www.digikey.com/en/products/detail/texas-instruments/
 
 ![Gate Driver](./doc/GateDriverSchematic.png)
 
-+ `1.8 V`, `3.3 V`, and `5 V` Logic Inputs
++ `1.8V`, `3.3V`, and `5V` Logic Inputs
 + Adjustable Slew Rate Control
 + Up to 100% PWM Duty Cycle
 + High-Side Charge Pump
 + Low-SIde Linear Regulator
-+ `4 V` to `60 V` Operating Voltage
-+ `0.8 mA` to `600 mA` Output Capability
++ `4V` to `6 V` Operating Voltage
++ `0.8mA` to `600mA` Output Capability
 
 ## MOSFETs
 
