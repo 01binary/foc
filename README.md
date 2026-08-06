@@ -42,7 +42,7 @@ The [DRV8320HRTVT](https://www.digikey.com/en/products/detail/texas-instruments/
 
 ## MOSFETs
 
-The [BSZ0904NSI](https://www.lcsc.com/datasheet/C51908785.pdf) `30 V`` 60 A` N-channel power MOSFETs are used to drive a single 3-phase brushless DC motor.
+The [BSZ0904NSI](https://www.lcsc.com/datasheet/C51908785.pdf) `30V` `60A` N-channel power MOSFETs are used to drive a single 3-phase brushless DC motor.
 
 ## Current Sense
 
@@ -52,15 +52,15 @@ Current is sensed by using the [3-Shunt, Amplified Current Sensing](https://wiki
 
 |Component|Description|
 |-|-|
-|[HoJLR2512-3W-2mR-1%](https://jlcpcb.com/partdetail/Milliohm-HoJLR2512_3W_2mR_1/C2903471)|2mΩ 3W Current Sense Resistor SMD ±1% 2512 Current Sense Resistors / Shunt Resistors|
+|[HoJLR2512-3W-2mR-1%](https://jlcpcb.com/partdetail/Milliohm-HoJLR2512_3W_2mR_1/C2903471)|`2mΩ` `3W` Current Sense Resistor SMD ±1% 2512 Current Sense Resistors / Shunt Resistors|
 |[INA240A1PWR](https://jlcpcb.com/partdetail/TexasInstruments-INA240A1PWR/C93965)|Op-Amps|
 
 ## Encoders
 
 The board supports dual encoders:
 
-+ AS5047 mounted in the center of the board (before gearbox)
-+ ASKIM-2 externally mounted on the drive (after gearbox)
++ AS5047D on the motor (before gearbox)
++ ASKIM-2 mounted on the drive (after gearbox)
 
 ### Onboard Encoder
 
