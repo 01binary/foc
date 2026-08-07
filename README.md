@@ -19,9 +19,8 @@ This board uses [STM32G474RBT3](https://www.digikey.com/en/products/detail/stmic
 |-|-|
 |Power|`3.3V`|
 |Memory|`512 KB` Flash, `96 KB` SRAM|
-|ADC|5x 12-bit ADC, up to 16-bit|
-|DAC|7x 12-bit DAC|
-|Operational Amplifiers|6x|
+|ADC|5x `12-bit` ADC, up to `16-bit`|
+|DAC|7x `12-bit` DAC|
 |Timers|17x|
 |Interfaces|`CAN-FD`, `I2C`, `UART`, `SPI`, `USB 2.0`|
 |Capabilities|`CORDIC` for Trigonometric Function, `FMAC` Filter Mathematical Accelerator|
@@ -39,6 +38,8 @@ The [DRV8320HRTVT](https://www.digikey.com/en/products/detail/texas-instruments/
 + Low-SIde Linear Regulator
 + `4V` to `6 V` Operating Voltage
 + `0.8mA` to `600mA` Output Capability
+
+
 
 ## MOSFETs
 
@@ -88,3 +89,15 @@ The external absolute AKSIM-2 encoder with `SPI` interface uses a 10-pin FCI con
 |6|`CS`|
 |7|`MISO`|
 |8|`MOSI`|
+
+## Pin Mapping
+
+|Pin|Net|
+|-|-|
+|`VBAT`|`+3.3V`|
+|`PC13`|Status LED|
+|`OSC32_IN`|`32.768kHz` Crystal Oscillator In|
+|`OSC32_OUT`|`32.768kHz` Crystal Oscillator Out|
+|`OSC_IN`|`8MHz` Crystal Oscillator In|
+|`OSC_OUT`|`8Mhz` Crystal Oscillator Out|
+|`RESET`|ARM JTAG Programmer Reset Pin|
